@@ -50,15 +50,15 @@
   
         // Determine the appropriate background image based on screen size
         if (screenWidth < 768) {
-          backgroundImage = '%PUBLIC_URL%//background-small.png';
+          backgroundImage = 'url("%PUBLIC_URL%/background-small.png")';
         } else if (screenWidth >= 768 && screenWidth < 1200) {
-          backgroundImage = '%PUBLIC_URL%/background-medium.png';
+          backgroundImage = 'url("%PUBLIC_URL%/background-medium.png")';
         } else {
-          backgroundImage = '%PUBLIC_URL%/background-large.png';
+          backgroundImage = 'url("%PUBLIC_URL%/background-large.png")';
         }
   
         // Set background styles
-        // body.style.backgroundImage = backgroundImage;
+        body.style.backgroundImage = backgroundImage;
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
         body.style.backgroundRepeat = 'no-repeat';
