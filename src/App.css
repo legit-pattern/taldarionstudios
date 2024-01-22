@@ -14,8 +14,9 @@
 }
 
 .MuiButton-root {
-  width: 220px;
-  max-width: 220px;
+  height: 70px;
+  width: 260px;
+  max-width: 260px;
   color: "black";
   background: "#ECDCB1";
   margin: "10px";
