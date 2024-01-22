@@ -7,34 +7,13 @@
   pointer-events: none;
 }
 
-.MuiListItemButton-root {
-  width: 220px;
-  max-width: 220px;
-  margin: 8px;
-}
-
 .MuiButton-root {
-  height: 70px;
-  width: 260px;
-  max-width: 260px;
+  height: 5vh;
+  width: 20vh;
   color: "black";
   background: "#ECDCB1";
-  margin: "10px";
-  /* margin: 8px; */
+  margin: 1vh;
 }
-
-.MuiButton-contained {
-  color: "black";
-  background: "#ECDCB1";
-  margin: "10px";
-}
-
-/* .Box {
-  background-image: url(${process.env.PUBLIC_URL + '/image.png'});
-  background-repeat: "no-repeat";
-  background-size: "cover";
-  height: "100vh"
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

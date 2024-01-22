@@ -4,8 +4,6 @@ import { Box, Button, Stack, Container, Typography } from '@mui/material';
 function App() {
   return (
     <Container>
-    {/* <img src="/header.png" alt="Banner" style={{ width: '100%', height: 'auto', display: 'block' }}/> */}
-
     <div style={{ width: '100%' }}>
       <img src="/header.png" alt="Banner" style={{ width: '100%', height: 'auto', display: 'block' }}/>
     </div>
@@ -17,7 +15,7 @@ function App() {
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         EDUCATION
       </Typography>
-      <Stack spacing={2} direction={"row"} >
+      <Stack spacing={2} direction={"row"} style={{ width: "2100px", justifyContent: "center", flexWrap: "wrap" }}>
         <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
           <Typography variant='h6' style={{ fontFamily: "tektur" }}>Homework helper</Typography>
         </Button>
@@ -29,9 +27,9 @@ function App() {
         <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
           <Typography variant='h6' style={{ fontFamily: "tektur" }}>Store Climber</Typography>
         </Button>
+
       </Stack>
     </Box>
-
 
     </Container>
 
