@@ -13,6 +13,21 @@
   margin: 8px;
 }
 
+.MuiButton-root {
+  width: 220px;
+  max-width: 220px;
+  color: "black";
+  background: "#ECDCB1";
+  margin: "10px";
+  /* margin: 8px; */
+}
+
+.MuiButton-contained {
+  color: "black";
+  background: "#ECDCB1";
+  margin: "10px";
+}
+
 /* .Box {
   background-image: url(${process.env.PUBLIC_URL + '/image.png'});
   background-repeat: "no-repeat";
