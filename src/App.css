@@ -23,6 +23,13 @@
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
+  .stack-style {
+    display: "flex";
+    flex-direction: "column";
+    flex-wrap: "wrap";
+    justify-content: "center";
+  }
+
   .button-bot-link {
     margin: 3px;
   }
@@ -37,10 +44,10 @@
 
   .MuiButton-root {
     height: 5vh;
-    width: 20vh;
+    width: 200px;
     color: "black";
     background: "#ECDCB1";
-    margin: 1vh;
+    margin: 5vh;
   }
 
   .typography-title {
@@ -78,6 +85,13 @@
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
+
+  .stack-style {
+    display: "flex";
+    flex-direction: "row";
+    flex-wrap: "wrap";
+    justify-content: "center";
+  }
 
   .box-padding {
     padding-bottom: 100px;
@@ -131,6 +145,13 @@
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
+
+  .stack-style {
+    display: "flex";
+    flex-direction: "row";
+    flex-wrap: "wrap";
+    justify-content: "center";
+  }
 
   .box-padding {
     padding-bottom: 150px;

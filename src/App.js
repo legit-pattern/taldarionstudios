@@ -13,7 +13,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         EDUCATION
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
         <Button style={{ background: "#ECDCB1" }} className="button-bot-link" variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
           <Typography className="typography-bot" style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
         </Button>
@@ -35,7 +35,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         CREATIVITY
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
@@ -44,7 +44,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         WRITING
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
@@ -53,7 +53,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         PRODUCTIVITY
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
@@ -62,7 +62,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         RESEARCH & ANALYSIS
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
@@ -71,7 +71,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         PROGRAMMING
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
@@ -80,7 +80,7 @@ function App() {
       <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         MULTIMEDIA
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Stack className="stack-style" spacing={2}>
 
       </Stack>
     </Box>
