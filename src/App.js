@@ -4,12 +4,10 @@ import { Box, Button, Stack, Container, Typography } from '@mui/material';
 function App() {
   return (
     <Container>
-    <div style={{ width: '100%' }}>
-      <img src="./header.png" alt="header" style={{ width: '100%', height: 'auto', display: 'block' }}/>
-    </div>
+    <img src="./header.png" alt="header" />
     
     <Container style={{ display: "flex", flexDirection: "column" }}>
-      <img src="./banner-1.jpeg" alt="banner" style={{ width: '100%', height: 'auto', display: 'block' }}/>
+      <img src="./banner-1.jpeg" alt="banner" />
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
