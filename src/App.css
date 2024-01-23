@@ -7,20 +7,27 @@
   pointer-events: none;
 }
 
-.MuiButton-root {
+/* .MuiButton-root {
   height: 5vh;
   width: 20vh;
   color: "black";
   background: "#ECDCB1";
   margin: 1vh;
-}
-
-.MuiTypography-root {
-  variant: "caption";
-}
+} */
 
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
+
+  .img {
+    width: 100vh;
+  }
+
+  .MuiStack-root {
+    width: 50vh;
+    justify-content: "center";
+    flex-wrap: "wrap"
+  }
+
   .MuiButton-root {
     height: 3vh;
     width: 15vh;
@@ -30,7 +37,7 @@
   }
 
   .MuiTypography-root {
-    size: 0.5vh;
+    font-size: 1rem;
   }
 
   .img-footer {
@@ -43,6 +50,13 @@
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
+
+  .MuiStack-root {
+    width: 100vh;
+    justify-content: "center";
+    flex-wrap: "wrap"
+  }
+
   .MuiButton-root {
     height: 4vh;
     width: 16vh;
@@ -52,7 +66,11 @@
   }
 
   .MuiTypography-root {
-    size: 4vh;
+    font-size: 3rem;
+  }
+
+  .img {
+    width: 100%;
   }
 
   .img-footer {
@@ -65,25 +83,35 @@
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
-    /* Styles for medium screens */
-    .MuiButton-root {
-      height: 5vh;
-      width: 20vh;
-      color: "black";
-      background: "#ECDCB1";
-      margin: 1vh;
-    }
   
-    .MuiTypography-root {
-      size: 5vh;
-    }
+  .MuiStack-root {
+    width: 150vh;
+    justify-content: "center";
+    flex-wrap: "wrap"
+  }
 
-    .img-footer {
-      padding-top: 300px;
-      width: '100%';
-      height: 'auto';
-      display: 'block';
-    }
+  .MuiButton-root {
+    height: 5vh;
+    width: 20vh;
+    color: "black";
+    background: "#ECDCB1";
+    margin: 1vh;
+  }
+
+  .MuiTypography-root {
+    font-size: 5rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .img-footer {
+    padding-top: 300px;
+    width: '100%';
+    height: 'auto';
+    display: 'block';
+  }
 }
 
 

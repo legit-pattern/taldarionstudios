@@ -13,17 +13,17 @@ function App() {
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         EDUCATION
       </Typography>
-      <Stack spacing={2} direction={"row"} style={{ width: "2100px", justifyContent: "center", flexWrap: "wrap" }}>
+      <Stack spacing={2} direction={"row"}>
         <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
-          <Typography variant='h6' style={{ fontFamily: "tektur" }}>Homework helper</Typography>
+          <Typography style={{ fontFamily: "tektur" }}>Homework helper</Typography>
         </Button>
 
         <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
-          <Typography variant='h6' style={{ fontFamily: "tektur" }}>Logo Animator</Typography>
+          <Typography style={{ fontFamily: "tektur" }}>Logo Animator</Typography>
         </Button>
 
         <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
-          <Typography variant='h6' style={{ fontFamily: "tektur" }}>Store Climber</Typography>
+          <Typography style={{ fontFamily: "tektur" }}>Store Climber</Typography>
         </Button>
 
       </Stack>
