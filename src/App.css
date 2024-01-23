@@ -36,11 +36,11 @@
   }
 
   .MuiButton-root {
-    height: 3vh;
-    width: 15vh;
+    height: 5vh;
+    width: 20vh;
     color: "black";
     background: "#ECDCB1";
-    margin: 0.5vh;
+    margin: 1vh;
   }
 
   .typography-title {
@@ -92,8 +92,8 @@
   }
 
   .MuiButton-root {
-    height: 4vh;
-    width: 16vh;
+    height: 5vh;
+    width: 20vh;
     color: "black";
     background: "#ECDCB1";
     margin: 1vh;

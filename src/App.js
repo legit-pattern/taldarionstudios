@@ -15,15 +15,15 @@ function App() {
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
         <Button style={{ background: "#ECDCB1" }} className="button-bot-link" variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
-          <Typography className="typography-bot" style={{ fontFamily: "tektur" }}>Homework helper</Typography>
+          <Typography className="typography-bot" style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
         </Button>
 
         <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
-          <Typography style={{ fontFamily: "tektur" }}>Logo Animator</Typography>
+          <Typography style={{ fontFamily: "tektur", color: "black" }}>Logo Animator</Typography>
         </Button>
 
         <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
-          <Typography style={{ fontFamily: "tektur" }}>Store Climber</Typography>
+          <Typography style={{ fontFamily: "tektur", color: "black" }}>Store Climber</Typography>
         </Button>
 
       </Stack>
