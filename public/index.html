@@ -9,7 +9,7 @@
       name="description"
       content="Web site registry containing chatgpt bots specifically trained to help you with education, research, analysis, programming, lifestyle, multimedia, arts, writing, creativity and productivity."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/android-chrome-192x192.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"/>
@@ -45,16 +45,6 @@
         var backgroundImage;
   
         // Determine the appropriate background image based on screen size
-        if (screenWidth < 768) {
-          backgroundImage = 'url("%PUBLIC_URL%/background-small.png")';
-        } else if (screenWidth >= 768 && screenWidth < 1200) {
-          backgroundImage = 'url("%PUBLIC_URL%/background-medium.png")';
-        } else {
-          backgroundImage = 'url("%PUBLIC_URL%/background-large.png")';
-        }
-  
-        // Set background styles
-        // body.style.backgroundImage = backgroundImage;
         body.style.background = "#0D111A"
         body.style.backgroundSize = 'cover';
         body.style.backgroundPosition = 'center';
