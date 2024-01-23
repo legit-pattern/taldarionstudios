@@ -15,6 +15,42 @@
   margin: 1vh;
 }
 
+.MuiTypography-root {
+  variant: "caption";
+}
+
+/* Example media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* Styles for small screens */
+  .MuiButton-root {
+    height: 3vh;
+    width: 15vh;
+    color: "black";
+    background: "#ECDCB1";
+    margin: 0.5vh;
+  }
+
+  .MuiTypography-root {
+    size: 0.5vh;
+  }
+}
+
+/* Example media query for screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  /* Styles for medium screens */
+  .MuiButton-root {
+    height: 5vh;
+    width: 20vh;
+    color: "black";
+    background: "#ECDCB1";
+    margin: 1vh;
+  }
+
+  .MuiTypography-root {
+    size: 3vh;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
