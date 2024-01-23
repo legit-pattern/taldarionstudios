@@ -33,7 +33,7 @@ function App() {
 
     </Container>
 
-    <img src="./footer.png" alt="footer" style={{ width: '100%', height: 'auto', display: 'block', paddingTop: "300px" }}/>
+    <img className='img-footer' src="./footer.png" alt="footer" />
     </Container>
   );
 }

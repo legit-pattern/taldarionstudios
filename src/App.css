@@ -19,8 +19,7 @@
   variant: "caption";
 }
 
-/* Example media query for screens smaller than 600px */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   /* Styles for small screens */
   .MuiButton-root {
     height: 3vh;
@@ -33,23 +32,60 @@
   .MuiTypography-root {
     size: 0.5vh;
   }
+
+  .img-footer {
+    padding-top: 100px;
+    width: '100%';
+    height: 'auto';
+    display: 'block';
+  }
 }
 
-/* Example media query for screens between 600px and 900px */
-@media (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
   .MuiButton-root {
-    height: 5vh;
-    width: 20vh;
+    height: 4vh;
+    width: 16vh;
     color: "black";
     background: "#ECDCB1";
     margin: 1vh;
   }
 
   .MuiTypography-root {
-    size: 3vh;
+    size: 4vh;
+  }
+
+  .img-footer {
+    padding-top: 200px;
+    width: '100%';
+    height: 'auto';
+    display: 'block';
   }
 }
+
+@media screen and (min-width: 1025px) {
+  /* Styles for large screens (e.g., desktops) */
+    /* Styles for medium screens */
+    .MuiButton-root {
+      height: 5vh;
+      width: 20vh;
+      color: "black";
+      background: "#ECDCB1";
+      margin: 1vh;
+    }
+  
+    .MuiTypography-root {
+      size: 5vh;
+    }
+
+    .img-footer {
+      padding-top: 300px;
+      width: '100%';
+      height: 'auto';
+      display: 'block';
+    }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
