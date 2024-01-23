@@ -18,6 +18,10 @@
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
+  .box-padding {
+    padding-bottom: 20px;
+  }
+
   .MuiStack-root {
     width: 50vh;
   }
@@ -53,6 +57,10 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
 
+  .box-padding {
+    padding-bottom: 100px;
+  }
+
   .MuiStack-root {
     width: 100vh;
   }
@@ -74,17 +82,21 @@
   }
 
   .img-header {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .img-footer {
     padding-top: 200px;
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
+
+  .box-padding {
+    padding-bottom: 150px;
+  }
   
   .MuiStack-root {
     width: 150vh;
@@ -107,12 +119,12 @@
   }
 
   .img-header {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .img-footer {
     padding-top: 300px;
-    width: 100%;
+    /* width: 100%; */
   }
 }
 

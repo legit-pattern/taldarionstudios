@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Button, Stack, Container, Typography } from '@mui/material';
+import { Box, Button, Divider, Stack, Container, Typography } from '@mui/material';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
     <Container style={{ display: "flex", flexDirection: "column" }}>
       <img className='img-banner' src="./banner-1.jpeg" alt="banner" />
 
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
+    <Box className="box-padding" style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         EDUCATION
       </Typography>
@@ -28,6 +28,8 @@ function App() {
 
       </Stack>
     </Box>
+
+    <Divider />
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
