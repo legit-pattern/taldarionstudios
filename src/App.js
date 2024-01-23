@@ -1,3 +1,4 @@
+import React from 'react';
 import "./App.css";
 import {
   Card,
@@ -13,8 +14,10 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const AccordionElement = ({title, children}) => {
+  const length = React.Children.count(children);
   return (
     <Accordion
+    disabled={length === 0}
     style={{
       backgroundColor: "#0D111A",
       display: "flex",
@@ -25,12 +28,16 @@ const AccordionElement = ({title, children}) => {
     }}
   >
     <AccordionSummary
-      expandIcon={<ExpandMoreIcon style={{ color: "#ECDCB1" }} />}
+      expandIcon={<ExpandMoreIcon style={{ color: "#ECDCB1", paddingTop: "13px" }}/>}
       style={{ width: "100%", borderRadius: "15px" }}
       sx={{
         "&:hover": {
           opacity: "70%",
           background: "#171D31",
+        },
+        ".MuiAccordionSummary-content": {
+          justifyContent: "space-between",
+          margin: "10px"
         }
       }}
     >
@@ -38,11 +45,18 @@ const AccordionElement = ({title, children}) => {
         className="typography-title"
         sx={{ mt: 4, mb: 2 }}
         component="div"
-      >
+        >
         {title}
       </Typography>
+      <Typography
+        className="typography-title"
+        sx={{ mt: 4, mb: 2 }}
+        component="div"
+        >
+        {length}
+      </Typography>
     </AccordionSummary>
-    <AccordionDetails style={{ paddingTop: "30px", display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+    <AccordionDetails style={{ paddingTop: "30px", display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%" }}>
       {children}
     </AccordionDetails>
   </Accordion>
@@ -79,44 +93,27 @@ function App() {
 
         <AccordionElement title="EDUCATION">
           <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
           <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="CREATIVITY">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="WRITING">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="PRODUCTIVITY">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="RESEARCH & ANALYSIS">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="PROGRAMMING">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         <AccordionElement title="MULTIMEDIA">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
           <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
         </div>

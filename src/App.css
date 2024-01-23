@@ -36,7 +36,7 @@
   } */
 
   .card-style {
-    width: 16vh;
+    width: 90%;
     background-color: #AAAFBF;
     margin: 10px;
   }
@@ -109,7 +109,7 @@
   } */
 
   .card-style {
-    width: 19vh;
+    width: 28vh;
     background-color: #AAAFBF;
     margin: 10px;
   }
@@ -271,8 +271,10 @@
   }
 }
 
-/* .MuiButton-root {
-  padding-top: 1px;
-  margin-top: 1px;
-  background-color: black;
-} */
+.MuiCollapse-root {
+  width: 100%;
+}
+
+.MuiAccordionDetails-root {
+  padding: 0px;
+}
