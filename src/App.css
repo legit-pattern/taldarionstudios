@@ -73,14 +73,14 @@
   }
 
   .img-header {
-    display: none;
+    /* display: none; */
     /* width: 100%; */
   }
 
   .img-footer {
-    display: none;
-    /* padding-top: 100px;
-    width: 100%; */
+    /* display: none; */
+    padding-top: 100px;
+    /* width: 100%; */
   }
 }
 

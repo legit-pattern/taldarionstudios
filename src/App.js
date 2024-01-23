@@ -15,7 +15,7 @@ function App() {
       </Typography>
       <Stack className="stack-style" spacing={2}>
         <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
-          <Typography className="typography-bot" style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
+          <Typography style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
         </Button>
 
         <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
