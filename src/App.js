@@ -5,11 +5,11 @@ function App() {
   return (
     <Container>
     <div style={{ width: '100%' }}>
-      <img src="/header.png" alt="Banner" style={{ width: '100%', height: 'auto', display: 'block' }}/>
+      <img src="./header.png" alt="header" style={{ width: '100%', height: 'auto', display: 'block' }}/>
     </div>
     
     <Container style={{ display: "flex", flexDirection: "column" }}>
-      <img src="/banner-1.jpeg" alt="Banner" style={{ width: '100%', height: 'auto', display: 'block' }}/>
+      <img src="./banner-1.jpeg" alt="banner" style={{ width: '100%', height: 'auto', display: 'block' }}/>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
       <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
@@ -33,7 +33,7 @@ function App() {
 
     </Container>
 
-    <img src="/footer.png" alt="Banner" style={{ width: '100%', height: 'auto', display: 'block', paddingTop: "300px" }}/>
+    <img src="./footer.png" alt="footer" style={{ width: '100%', height: 'auto', display: 'block', paddingTop: "300px" }}/>
     </Container>
   );
 }
