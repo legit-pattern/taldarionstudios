@@ -56,7 +56,7 @@ const AccordionElement = ({title, children}) => {
         {length}
       </Typography>
     </AccordionSummary>
-    <AccordionDetails style={{ paddingTop: "30px", display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%" }}>
+    <AccordionDetails style={{ paddingLeft: "2px", paddingRight: "2px", paddingTop: "30px", display: "flex", flexDirection: "row", flexWrap: "wrap", width: "100%" }}>
       {children}
     </AccordionDetails>
   </Accordion>
