@@ -74,13 +74,13 @@
 
   .img-header {
     /* display: none; */
-    /* width: 100%; */
+    width: 100%;
   }
 
   .img-footer {
     /* display: none; */
     padding-top: 100px;
-    /* width: 100%; */
+    width: 100%;
   }
 }
 
@@ -104,6 +104,7 @@
 
   .MuiStack-root {
     width: 100vh;
+    align-items: center;
   }
 
   .MuiButton-root {
@@ -152,6 +153,7 @@
     flex-direction: "row";
     flex-wrap: "wrap";
     justify-content: "center";
+    align-items: "center";
   }
 
   .box-padding {
@@ -164,6 +166,7 @@
   
   .MuiStack-root {
     width: 150vh;
+    align-items: center;
   }
 
   .MuiButton-root {
