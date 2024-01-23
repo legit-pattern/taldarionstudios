@@ -14,15 +14,15 @@ function App() {
         EDUCATION
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
-        <Button className="button-bot-link" variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
+        <Button style={{ background: "#ECDCB1" }} className="button-bot-link" variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
           <Typography className="typography-bot" style={{ fontFamily: "tektur" }}>Homework helper</Typography>
         </Button>
 
-        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
+        <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
           <Typography style={{ fontFamily: "tektur" }}>Logo Animator</Typography>
         </Button>
 
-        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
+        <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
           <Typography style={{ fontFamily: "tektur" }}>Store Climber</Typography>
         </Button>
 

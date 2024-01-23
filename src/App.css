@@ -53,6 +53,7 @@
   .typography-bot {
     font-family: "tektur";
     font-size: small;
+    background: "#ECDCB1";
   }
 
   .MuiTypography-root {
@@ -107,6 +108,7 @@
 
   .typography-bot {
     font-family: "tektur";
+    background: "#ECDCB1";
   }
 
   .MuiTypography-root {
@@ -163,6 +165,7 @@
 
   .typography-bot {
     font-family: "tektur";
+    background: "#ECDCB1";
   }
 
   .img-banner {
