@@ -13,15 +13,15 @@ function App() {
         EDUCATION
       </Typography>
       <List className="stack-style" spacing={2}>
-        <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
+        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
           <Typography style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
         </Button>
 
-        <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
+        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
           <Typography style={{ fontFamily: "tektur", color: "black" }}>Logo Animator</Typography>
         </Button>
 
-        <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
+        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
           <Typography style={{ fontFamily: "tektur", color: "black" }}>Store Climber</Typography>
         </Button>
 

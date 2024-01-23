@@ -39,6 +39,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   .MuiButton-root {
@@ -46,8 +47,6 @@
     width: 200px;
     color: black;
     background: #ECDCB1;
-    margin: 5vh;
-    padding: 10px;
   }
 
   .typography-title {
@@ -114,8 +113,6 @@
     width: 20vh;
     color: black;
     background: #ECDCB1;
-    margin: 1vh;
-    padding: 10px;
   }
 
   .typography-title {
@@ -178,12 +175,10 @@
   }
 
   .MuiButton-root {
-    height: 5vh;
-    width: 20vh;
+    height: 4.5vh;
+    width: 270px;
     color: black;
     background: #ECDCB1;
-    margin: 1vh;
-    padding: 1vh;
   }
 
   .MuiTypography-root {
@@ -248,8 +243,8 @@
   }
 }
 
-.MuiButton-root {
+/* .MuiButton-root {
   padding-top: 1px;
   margin-top: 1px;
   background-color: black;
-}
+} */
