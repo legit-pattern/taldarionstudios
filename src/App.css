@@ -15,20 +15,15 @@
   margin: 1vh;
 } */
 
-.MuiButton-root {
-  color: "black";
-  background: "#ECDCB1";
-}
-
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
-  .stack-style {
+  /* .stack-style {
     display: "flex";
     flex-direction: "column";
     flex-wrap: "wrap";
     justify-content: "center";
-  }
+  } */
 
   .button-bot-link {
     margin: 3px;
@@ -38,31 +33,34 @@
     padding-bottom: 20px;
   }
 
-  .MuiStack-root {
+  .MuiList-root {
+    display: flex;
     width: 50vh;
-    align-items: center;
-    margin: 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .MuiButton-root {
     height: 5vh;
     width: 200px;
-    color: "black";
-    background: "#ECDCB1";
+    color: black;
+    background: #ECDCB1;
     margin: 5vh;
+    padding: 10px;
   }
 
   .typography-title {
     font-size: 1rem;
-    color: "#ECDCB1";
-    font-family: "tektur";
+    color: #ECDCB1;
+    font-family: tektur;
     align-self: center;
   }
 
   .typography-bot {
-    font-family: "tektur";
+    font-family: tektur;
     font-size: small;
-    background: "#ECDCB1";
+    background: #ECDCB1;
   }
 
   .MuiTypography-root {
@@ -88,12 +86,12 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
 
-  .stack-style {
+  /* .stack-style {
     display: "flex";
     flex-direction: "row";
     flex-wrap: "wrap";
     justify-content: "center";
-  }
+  } */
 
   .box-padding {
     padding-bottom: 100px;
@@ -103,30 +101,33 @@
     margin: 7px;
   }
 
-  .MuiStack-root {
+  .MuiList-root {
+    display: flex;
     width: 100vh;
-    align-items: center;
-    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .MuiButton-root {
     height: 5vh;
     width: 20vh;
-    color: "black";
-    background: "#ECDCB1";
+    color: black;
+    background: #ECDCB1;
     margin: 1vh;
+    padding: 10px;
   }
 
   .typography-title {
     font-size: 3rem;
-    color: "#ECDCB1";
-    font-family: "tektur";
+    color: #ECDCB1;
+    font-family: tektur;
     align-self: center;
   }
 
   .typography-bot {
-    font-family: "tektur";
-    background: "#ECDCB1";
+    font-family: tektur;
+    background: #ECDCB1;
   }
 
   .MuiTypography-root {
@@ -151,13 +152,13 @@
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
 
-  .stack-style {
+  /* .stack-style {
     display: "flex";
     flex-direction: "row";
     flex-wrap: "wrap";
     justify-content: "center";
     align-items: "center";
-  }
+  } */
 
   .box-padding {
     padding-bottom: 150px;
@@ -167,17 +168,22 @@
     margin: 10px;
   }
   
-  .MuiStack-root {
+  .MuiList-root {
     width: 150vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 
   .MuiButton-root {
     height: 5vh;
     width: 20vh;
-    color: "black";
-    background: "#ECDCB1";
+    color: black;
+    background: #ECDCB1;
     margin: 1vh;
+    padding: 1vh;
   }
 
   .MuiTypography-root {
@@ -186,14 +192,14 @@
 
   .typography-title {
     font-size: 5rem;
-    color: "#ECDCB1";
-    font-family: "tektur";
+    color: #ECDCB1;
+    font-family: tektur;
     align-self: center;
   }
 
   .typography-bot {
-    font-family: "tektur";
-    background: "#ECDCB1";
+    font-family: tektur;
+    background: #ECDCB1;
   }
 
   .img-banner {
@@ -240,4 +246,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiButton-root {
+  padding-top: 1px;
+  margin-top: 1px;
+  background-color: black;
 }

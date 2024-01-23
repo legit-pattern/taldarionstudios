@@ -1,5 +1,5 @@
 import './App.css';
-import { Box, Button, Divider, Stack, Container, Typography } from '@mui/material';
+import { Box, Button, Divider, List, Container, Typography } from '@mui/material';
 
 function App() {
   return (
@@ -8,11 +8,11 @@ function App() {
     <Container style={{ display: "flex", flexDirection: "column" }}>
       <img className='img-banner' src="./banner-1.jpeg" alt="banner" />
 
-    <Box className="box-padding" style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+    <Box className="box-padding" style={{ display: "flex", flexDirection: "column", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         EDUCATION
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
         <Button style={{ background: "#ECDCB1" }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
           <Typography style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
         </Button>
@@ -25,63 +25,63 @@ function App() {
           <Typography style={{ fontFamily: "tektur", color: "black" }}>Store Climber</Typography>
         </Button>
 
-      </Stack>
+      </List>
     </Box>
 
     <Divider />
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         CREATIVITY
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         WRITING
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         PRODUCTIVITY
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         RESEARCH & ANALYSIS
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         PROGRAMMING
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
         MULTIMEDIA
       </Typography>
-      <Stack className="stack-style" spacing={2}>
+      <List className="stack-style" spacing={2}>
 
-      </Stack>
+      </List>
     </Box>
 
     </Container>
