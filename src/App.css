@@ -35,6 +35,10 @@
     justify-content: "center";
   } */
 
+  .MuiAccordionDetails-root {
+    justify-content: center;
+  }
+
   .card-style {
     width: 90%;
     background-color: #AAAFBF;
