@@ -14,15 +14,15 @@ function App() {
         EDUCATION
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
-        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
-          <Typography style={{ fontFamily: "tektur" }}>Homework helper</Typography>
+        <Button className="button-bot-link" variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
+          <Typography className="typography-bot" style={{ fontFamily: "tektur" }}>Homework helper</Typography>
         </Button>
 
-        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
+        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
           <Typography style={{ fontFamily: "tektur" }}>Logo Animator</Typography>
         </Button>
 
-        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber' style={{ color: "black", background: "#ECDCB1", margin: "10px" }}>
+        <Button variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
           <Typography style={{ fontFamily: "tektur" }}>Store Climber</Typography>
         </Button>
 
@@ -50,7 +50,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         PRODUCTIVITY
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>

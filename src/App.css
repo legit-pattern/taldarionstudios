@@ -15,8 +15,17 @@
   margin: 1vh;
 } */
 
+.MuiButton-root {
+  color: "black";
+  background: "#ECDCB1";
+}
+
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
+
+  .button-bot-link {
+    margin: 3px;
+  }
 
   .box-padding {
     padding-bottom: 20px;
@@ -36,6 +45,14 @@
 
   .typography-title {
     font-size: 1rem;
+    color: "#ECDCB1";
+    font-family: "tektur";
+    align-self: center;
+  }
+
+  .typography-bot {
+    font-family: "tektur";
+    font-size: small;
   }
 
   .MuiTypography-root {
@@ -65,6 +82,10 @@
     padding-bottom: 100px;
   }
 
+  .button-bot-link {
+    margin: 7px;
+  }
+
   .MuiStack-root {
     width: 100vh;
   }
@@ -79,6 +100,13 @@
 
   .typography-title {
     font-size: 3rem;
+    color: "#ECDCB1";
+    font-family: "tektur";
+    align-self: center;
+  }
+
+  .typography-bot {
+    font-family: "tektur";
   }
 
   .MuiTypography-root {
@@ -105,6 +133,10 @@
   .box-padding {
     padding-bottom: 150px;
   }
+
+  .button-bot-link {
+    margin: 10px;
+  }
   
   .MuiStack-root {
     width: 150vh;
@@ -120,6 +152,17 @@
 
   .MuiTypography-root {
     font-size: 5rem;
+  }
+
+  .typography-title {
+    font-size: 5rem;
+    color: "#ECDCB1";
+    font-family: "tektur";
+    align-self: center;
+  }
+
+  .typography-bot {
+    font-family: "tektur";
   }
 
   .img-banner {
