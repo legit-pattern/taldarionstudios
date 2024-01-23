@@ -40,6 +40,7 @@
 
   .MuiStack-root {
     width: 50vh;
+    align-items: center;
   }
 
   .MuiButton-root {
