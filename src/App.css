@@ -7,33 +7,8 @@
   pointer-events: none;
 }
 
-/* .MuiButton-root {
-  height: 5vh;
-  width: 20vh;
-  color: "black";
-  background: "#ECDCB1";
-  margin: 1vh;
-} */
-
-/* .accordion-style {
-  background-color: #0D111A;
-  background: #0D111A;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: none;
-} */
-
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
-
-  /* .stack-style {
-    display: "flex";
-    flex-direction: "column";
-    flex-wrap: "wrap";
-    justify-content: "center";
-  } */
 
   .MuiAccordionDetails-root {
     justify-content: center;
@@ -90,11 +65,6 @@
     width: 100%;
   }
 
-  .img-header {
-    /* display: none; */
-    /* width: 100%; */
-  }
-
   .img-footer {
     /* display: none; */
     padding-top: 100px;
@@ -104,13 +74,6 @@
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
-
-  /* .stack-style {
-    display: "flex";
-    flex-direction: "row";
-    flex-wrap: "wrap";
-    justify-content: "center";
-  } */
 
   .card-style {
     width: 28vh;
@@ -161,11 +124,6 @@
     width: 100%;
   }
 
-  /* .img-header {
-    padding-top: 200px;
-    width: 100%;
-  } */
-
   .img-footer {
     padding-top: 200px;
     width: 100%;
@@ -174,14 +132,6 @@
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
-
-  /* .stack-style {
-    display: "flex";
-    flex-direction: "row";
-    flex-wrap: "wrap";
-    justify-content: "center";
-    align-items: "center";
-  } */
 
   .card-style {
     width: 22vh;
@@ -232,11 +182,6 @@
   .img-banner {
     width: 100%;
   }
-
-  /* .img-header {
-    padding-top: 300px;
-    width: 100%;
-  } */
 
   .img-footer {
     padding-top: 300px;

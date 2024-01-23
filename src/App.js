@@ -13,6 +13,50 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+
+function App() {
+  return (
+    <Container
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
+      <Container style={{ display: "flex", flexDirection: "column" }}>
+        <img className="img-banner" src="./banner-1.jpeg" alt="banner" />
+
+        <div>
+
+        <AccordionElement title="EDUCATION">
+          <CardElement title="Homework Helper" description="This bot will help you complete basic homework assignments" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Store Climber" description="This bot will do amazing things" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
+
+        <AccordionElement title="CREATIVITY">
+        </AccordionElement>
+
+        <AccordionElement title="WRITING">
+        </AccordionElement>
+
+        <AccordionElement title="PRODUCTIVITY">
+        </AccordionElement>
+
+        <AccordionElement title="RESEARCH & ANALYSIS">
+        </AccordionElement>
+
+        <AccordionElement title="PROGRAMMING">
+        </AccordionElement>
+
+        <AccordionElement title="MULTIMEDIA">
+          <CardElement title="Logo Animator" description="This bot will help you animate logotypes for your company" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+        </AccordionElement>
+
+        </div>
+
+      </Container>
+
+      <img className="img-footer" src="./footer.png" alt="header" />
+    </Container>
+  );
+}
+
 const AccordionElement = ({title, children}) => {
   const length = React.Children.count(children);
   return (
@@ -81,50 +125,5 @@ const CardElement = ({title, description, url}) => {
   );
 }
 
-function App() {
-  return (
-    <Container
-      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
-    >
-      <Container style={{ display: "flex", flexDirection: "column" }}>
-        <img className="img-banner" src="./banner-1.jpeg" alt="banner" />
-
-        <div>
-
-        <AccordionElement title="EDUCATION">
-          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
-          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
-        </AccordionElement>
-
-        <AccordionElement title="CREATIVITY">
-        </AccordionElement>
-
-        <AccordionElement title="WRITING">
-        </AccordionElement>
-
-        <AccordionElement title="PRODUCTIVITY">
-        </AccordionElement>
-
-        <AccordionElement title="RESEARCH & ANALYSIS">
-        </AccordionElement>
-
-        <AccordionElement title="PROGRAMMING">
-        </AccordionElement>
-
-        <AccordionElement title="MULTIMEDIA">
-          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
-        </AccordionElement>
-
-        </div>
-
-      </Container>
-
-      <img className="img-footer" src="./footer.png" alt="header" />
-
-      {/* <img className='img-footer' src="./footer.png" alt="footer" /> */}
-    </Container>
-  );
-}
 
 export default App;
