@@ -41,6 +41,7 @@
   .MuiStack-root {
     width: 50vh;
     align-items: center;
+    margin: 0px;
   }
 
   .MuiButton-root {
@@ -74,7 +75,7 @@
 
   .img-header {
     /* display: none; */
-    width: 100%;
+    /* width: 100%; */
   }
 
   .img-footer {
@@ -105,6 +106,7 @@
   .MuiStack-root {
     width: 100vh;
     align-items: center;
+    margin: 0px;
   }
 
   .MuiButton-root {
@@ -135,13 +137,14 @@
     width: 100%;
   }
 
-  .img-header {
-    /* width: 100%; */
-  }
+  /* .img-header {
+    padding-top: 200px;
+    width: 100%;
+  } */
 
   .img-footer {
     padding-top: 200px;
-    /* width: 100%; */
+    width: 100%;
   }
 }
 
@@ -197,13 +200,14 @@
     width: 100%;
   }
 
-  .img-header {
-    /* width: 100%; */
-  }
+  /* .img-header {
+    padding-top: 300px;
+    width: 100%;
+  } */
 
   .img-footer {
     padding-top: 300px;
-    /* width: 100%; */
+    width: 100%;
   }
 }
 

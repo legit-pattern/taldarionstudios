@@ -4,7 +4,6 @@ import { Box, Button, Divider, Stack, Container, Typography } from '@mui/materia
 function App() {
   return (
     <Container style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-    <img className='img-header' src="./header.png" alt="header" />
     
     <Container style={{ display: "flex", flexDirection: "column" }}>
       <img className='img-banner' src="./banner-1.jpeg" alt="banner" />
@@ -87,7 +86,9 @@ function App() {
 
     </Container>
 
-    <img className='img-footer' src="./footer.png" alt="footer" />
+    <img className='img-footer' src="./header.png" alt="header" />
+
+    {/* <img className='img-footer' src="./footer.png" alt="footer" /> */}
     </Container>
   );
 }
