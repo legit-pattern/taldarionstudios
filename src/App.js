@@ -10,7 +10,7 @@ function App() {
       <img className='img-banner' src="./banner-1.jpeg" alt="banner" />
 
     <Box className="box-padding" style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         EDUCATION
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -32,7 +32,7 @@ function App() {
     <Divider />
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         CREATIVITY
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -41,7 +41,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         WRITING
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -50,7 +50,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         PRODUCTIVITY
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -59,7 +59,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         RESEARCH & ANALYSIS
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -68,7 +68,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         PROGRAMMING
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>
@@ -77,7 +77,7 @@ function App() {
     </Box>
 
     <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h4" component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
+      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div" style={{ color: "#ECDCB1", fontFamily: "tektur", alignSelf: "center" }}>
         MULTIMEDIA
       </Typography>
       <Stack spacing={2} direction={"row"} style={{ flexWrap: "wrap", justifyContent: "center" }}>

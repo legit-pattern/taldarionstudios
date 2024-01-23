@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/taldarionstudios/static/css/main.627a9974.css",
-    "main.js": "/taldarionstudios/static/js/main.054d68d0.js",
+    "main.css": "/taldarionstudios/static/css/main.715144d6.css",
+    "main.js": "/taldarionstudios/static/js/main.e2cdc82d.js",
     "static/js/787.36ca154a.chunk.js": "/taldarionstudios/static/js/787.36ca154a.chunk.js",
     "index.html": "/taldarionstudios/index.html",
-    "main.627a9974.css.map": "/taldarionstudios/static/css/main.627a9974.css.map",
-    "main.054d68d0.js.map": "/taldarionstudios/static/js/main.054d68d0.js.map",
+    "main.715144d6.css.map": "/taldarionstudios/static/css/main.715144d6.css.map",
+    "main.e2cdc82d.js.map": "/taldarionstudios/static/js/main.e2cdc82d.js.map",
     "787.36ca154a.chunk.js.map": "/taldarionstudios/static/js/787.36ca154a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.627a9974.css",
-    "static/js/main.054d68d0.js"
+    "static/css/main.715144d6.css",
+    "static/js/main.e2cdc82d.js"
   ]
 }
