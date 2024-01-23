@@ -1,94 +1,131 @@
-import './App.css';
-import { Box, Button, Divider, List, Container, Typography } from '@mui/material';
+import "./App.css";
+import {
+  Card,
+  CardContent,
+  CardActions,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Button,
+  Container,
+  Typography,
+} from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
+const AccordionElement = ({title, children}) => {
+  return (
+    <Accordion
+    style={{
+      backgroundColor: "#0D111A",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      boxShadow: "none"
+    }}
+  >
+    <AccordionSummary
+      expandIcon={<ExpandMoreIcon style={{ color: "#ECDCB1" }} />}
+      style={{ width: "100%", borderRadius: "15px" }}
+      sx={{
+        "&:hover": {
+          opacity: "70%",
+          background: "#171D31",
+        }
+      }}
+    >
+      <Typography
+        className="typography-title"
+        sx={{ mt: 4, mb: 2 }}
+        component="div"
+      >
+        {title}
+      </Typography>
+    </AccordionSummary>
+    <AccordionDetails style={{ paddingTop: "30px", display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+      {children}
+    </AccordionDetails>
+  </Accordion>
+  );
+}
+
+const CardElement = ({title, description, url}) => {
+  return (
+    <Card className="card-style" style={{ display: "flex", flexDirection: "column", flexWrap: "no-wrap", justifyContent: "space-between" }}>
+    <CardContent>
+      <Typography variant="h6" sx={{ fontSize: 14 }} color="text.primary" gutterBottom>
+        {title}
+      </Typography>
+      <Typography sx={{ fontSize: 14, wordWrap: "break-word" }} color="text.caption" gutterBottom>
+        {description}
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button style={{ width: "100%", height: "3vh", backgroundColor: "#ECDCB1", color: "black" }} variant="contained" target="_blank" href={url}>OPEN</Button>
+    </CardActions>
+  </Card>
+  );
+}
 
 function App() {
   return (
-    <Container style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-    
-    <Container style={{ display: "flex", flexDirection: "column" }}>
-      <img className='img-banner' src="./banner-1.jpeg" alt="banner" />
+    <Container
+      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+    >
+      <Container style={{ display: "flex", flexDirection: "column" }}>
+        <img className="img-banner" src="./banner-1.jpeg" alt="banner" />
 
-    <Box className="box-padding" style={{ display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        EDUCATION
-      </Typography>
-      <List className="stack-style" spacing={2}>
-        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper'>
-          <Typography style={{ fontFamily: "tektur", color: "black" }}>Homework helper</Typography>
-        </Button>
+        <div>
 
-        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator'>
-          <Typography style={{ fontFamily: "tektur", color: "black" }}>Logo Animator</Typography>
-        </Button>
+        <AccordionElement title="EDUCATION">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-        <Button style={{ background: "#ECDCB1", margin: "8px"  }} variant="contained" target='_blank' href='https://chat.openai.com/g/g-vfxEmHLfH-store-climber'>
-          <Typography style={{ fontFamily: "tektur", color: "black" }}>Store Climber</Typography>
-        </Button>
+        <AccordionElement title="CREATIVITY">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-      </List>
-    </Box>
+        <AccordionElement title="WRITING">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-    <Divider />
+        <AccordionElement title="PRODUCTIVITY">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        CREATIVITY
-      </Typography>
-      <List className="stack-style" spacing={2}>
+        <AccordionElement title="RESEARCH & ANALYSIS">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-      </List>
-    </Box>
+        <AccordionElement title="PROGRAMMING">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        WRITING
-      </Typography>
-      <List className="stack-style" spacing={2}>
+        <AccordionElement title="MULTIMEDIA">
+          <CardElement title="Homework Helper" description="Lorem ipsum dolores color et jnaiodhwodnaodiawodniandiwdni jnaiodhwodnaodiawodniandiwdni" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
+          <CardElement title="Logo Animator" description="Random description" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Store Climber" description="Random description" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+        </AccordionElement>
 
-      </List>
-    </Box>
+        </div>
 
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        PRODUCTIVITY
-      </Typography>
-      <List className="stack-style" spacing={2}>
+      </Container>
 
-      </List>
-    </Box>
+      <img className="img-footer" src="./footer.png" alt="header" />
 
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        RESEARCH & ANALYSIS
-      </Typography>
-      <List className="stack-style" spacing={2}>
-
-      </List>
-    </Box>
-
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        PROGRAMMING
-      </Typography>
-      <List className="stack-style" spacing={2}>
-
-      </List>
-    </Box>
-
-    <Box style={{display: "flex", flexDirection: "column", alignSelf: "center" }}>
-      <Typography className="typography-title" sx={{ mt: 4, mb: 2 }} component="div">
-        MULTIMEDIA
-      </Typography>
-      <List className="stack-style" spacing={2}>
-
-      </List>
-    </Box>
-
-    </Container>
-
-    <img className='img-footer' src="./header.png" alt="header" />
-
-    {/* <img className='img-footer' src="./footer.png" alt="footer" /> */}
+      {/* <img className='img-footer' src="./footer.png" alt="footer" /> */}
     </Container>
   );
 }

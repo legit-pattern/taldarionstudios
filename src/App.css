@@ -15,6 +15,16 @@
   margin: 1vh;
 } */
 
+/* .accordion-style {
+  background-color: #0D111A;
+  background: #0D111A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+} */
+
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
@@ -24,6 +34,12 @@
     flex-wrap: "wrap";
     justify-content: "center";
   } */
+
+  .card-style {
+    width: 16vh;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
 
   .button-bot-link {
     margin: 3px;
@@ -92,6 +108,12 @@
     justify-content: "center";
   } */
 
+  .card-style {
+    width: 19vh;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
+
   .box-padding {
     padding-bottom: 100px;
   }
@@ -156,6 +178,12 @@
     justify-content: "center";
     align-items: "center";
   } */
+
+  .card-style {
+    width: 22vh;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
 
   .box-padding {
     padding-bottom: 150px;
