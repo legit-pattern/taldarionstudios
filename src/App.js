@@ -24,28 +24,43 @@ function App() {
 
         <div>
 
+        <AccordionElement title="PROGRAMMING">
+          <CardElement title="Taldarion" description="Combining the Best of All Top Coding GPTs, into One Supreme Master of All Programming" url="https://chat.openai.com/g/g-n6AiNh8ZM-taldarion" />
+        </AccordionElement>
+
         <AccordionElement title="EDUCATION">
-          <CardElement title="Homework Helper" description="This bot will help you complete basic homework assignments" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
-          <CardElement title="Store Climber" description="This bot will do amazing things" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
+          <CardElement title="Heareo" description="Interactive educational tool for learning anything" url="https://chat.openai.com/g/g-CoykUzDg1-heareo" />
+          <CardElement title="Lrne🍁- Homework Helper" description="Family Learning for All Ages🍁" url="https://chat.openai.com/g/g-wTI7lRowq-lrne-homework-helper" />
         </AccordionElement>
 
         <AccordionElement title="CREATIVITY">
+          <CardElement title="Vol'dan" description="Combining the Best of all Top Image Generation GPTs, like DALL-E and Midjourney, including custom-made GPT versions, into one supreme master of imagery." url="https://chat.openai.com/g/g-oV2LxYQpD-vol-dan" />
+          <CardElement title="Logo Text Creator" description="Text-Based images and designs." url="https://chat.openai.com/g/g-tSYLdyjJN-logo-text-creator" />
         </AccordionElement>
 
         <AccordionElement title="WRITING">
+          <CardElement title="IMAGINEUS StoryCraft" description="Book Writing, Script Crafting, and Story Creation. Bringing Your Stories to Life in Extraordinary Ways." url="https://chat.openai.com/g/g-3EetpS3z2-imagineus-storycraft" />
+          <CardElement title="DalyFlect☀️Reflection-Journal🌜" description="Start and finish your day with your daily reflection journal." url="https://chat.openai.com/g/g-MY6vMeCrV-dalyflect-reflection-journal" />
+          <CardElement title="ReWRT- Rewriter" description="Rewrite Anything with Precision: Prompt Optimization, Only and Exactly as Directed" url="https://chat.openai.com/g/g-Lqmp1Pjpj-rewrt-rewriter" />
         </AccordionElement>
 
         <AccordionElement title="PRODUCTIVITY">
+          <CardElement title="Store Climber" description="Unlock Secrets: How to Climb with Your Custom GPT at OpenAI's GPT Store" url="https://chat.openai.com/g/g-vfxEmHLfH-store-climber" />
         </AccordionElement>
 
-        <AccordionElement title="RESEARCH & ANALYSIS">
-        </AccordionElement>
-
-        <AccordionElement title="PROGRAMMING">
+        <AccordionElement title="LIFESTYLE">
+          <CardElement title="Futeness🦾- Today's Training Solution⚡" description="Your Solution for Today's Workout" url="https://chat.openai.com/g/g-LK5dbKxxO-futeness-today-s-training-solution" />
+          <CardElement title="GlossyBoss - Makeup/Products🌸" description="AI beauty guide for makeup advice and product recommendations.🌸" url="https://chat.openai.com/g/g-HWT02s6nP-glossyboss-makeup-products" />
         </AccordionElement>
 
         <AccordionElement title="MULTIMEDIA">
-          <CardElement title="Logo Animator" description="This bot will help you animate logotypes for your company" url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Logo Animator" description="Animate Your Logo🎞️, Image, or Anything – Just Like Magic!🧙 Watch Your Ideas Leap into Motion with a Single Command." url="https://chat.openai.com/g/g-kLXy5ZCqD-logo-animator" />
+          <CardElement title="Movie Magic Maker" description="Advanced AI for Digital Filmmaking & Storytelling" url="https://chat.openai.com/g/g-sZ4XkRBkV-movie-magic-maker" />
+          <CardElement title="VideoTrailer Maker" description="Specialist in video/movie trailers." url="https://chat.openai.com/g/g-eKaZWYAnZ-videotrailer-maker" />
+        </AccordionElement>
+
+        <AccordionElement title="RESEARCH & ANALYSIS">
+          <CardElement title="EagleAI Newshunter" description="Your go-to for the latest in AI, scouting opportunities, innovations, and breakthroughs." url="https://chat.openai.com/g/g-QgoXfmP5q-eagleai-newshunter" />
         </AccordionElement>
 
         </div>
