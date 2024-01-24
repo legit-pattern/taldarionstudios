@@ -103,6 +103,7 @@ const AccordionElement = ({title, children}) => {
       <Typography
         className="typography-title"
         sx={{ mt: 4, mb: 2 }}
+        variant='h5'
         component="div"
         >
         {title}
