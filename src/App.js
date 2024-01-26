@@ -22,7 +22,7 @@ function App() {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   const customGptTextStyleSmall = {
-    fontSize: '1.6vh',
+    fontSize: '1.9vh',
   };
 
   const customGptTextStyleBig = {
