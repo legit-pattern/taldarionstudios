@@ -10,6 +10,14 @@
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
+  .customGptText {
+    font-size: 1.4vh;
+    color: #ECDCB1;
+    padding-top: 1px;
+    white-space: nowrap;
+    font-family: tektur;
+  }
+
   .MuiAccordionDetails-root {
     justify-content: center;
   }
@@ -138,9 +146,9 @@
     font-family: tektur;
   }
 
-  .MuiTypography-root {
+  /* .MuiTypography-root {
     font-size: 1vh,
-  }
+  } */
 
   .card-style {
     width: 20vh;

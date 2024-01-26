@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import "./App.css";
+import styles from "./App.css";
 import {
   Card,
   CardContent,
@@ -11,11 +11,24 @@ import {
   Container,
   Typography,
 } from "@mui/material";
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 
 function App() {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+
+  const customGptTextStyleSmall = {
+    fontSize: '1.4vh',
+  };
+
+  const customGptTextStyleBig = {
+    fontSize: '2vh',
+  };
+
   const targetSectionRef = useRef(null);
 
   const scrollToSection = () => {
@@ -35,7 +48,9 @@ function App() {
           startIcon={<KeyboardDoubleArrowLeftIcon style={{ color: "#ECDCB1", paddingRight: "5px" }} />}
           endIcon={<KeyboardDoubleArrowRightIcon style={{ color: "#ECDCB1", paddingLeft: "5px" }} />}
           >
-            <Typography style={{ color: "#ECDCB1", paddingTop: "1px", textWrap: "nowrap", fontFamily: "tektur", fontSize: "1.3rem" }}>CUSTOM GPT COLLECTION</Typography>
+            <Typography sx={isSmallScreen ? customGptTextStyleSmall : customGptTextStyleBig} style={{ color: "#ECDCB1", paddingTop: '1px', whiteSpace: 'nowrap', fontFamily: 'tektur' }}>
+              CUSTOM GPT COLLECTION
+            </Typography>
         </Button>
 
         <div ref={targetSectionRef} style={{ paddingTop: "5vh" }}>
