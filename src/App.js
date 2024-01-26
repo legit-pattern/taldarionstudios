@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./App.css";
 import {
   Card,
@@ -12,17 +12,33 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 
 function App() {
+  const targetSectionRef = useRef(null);
+
+  const scrollToSection = () => {
+    if (targetSectionRef.current) {
+      targetSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Container
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <Container style={{ display: "flex", flexDirection: "column" }}>
-        <img className="img-banner" src="./banner-1.jpeg" alt="banner" />
+        <img className="img-banner" src="./banner-1.jpg" alt="banner" />
 
-        <div>
+        <Button onClick={scrollToSection} style={{ width: "100%", alignSelf: "flex-start", borderColor: "#ECDCB1" }}
+          startIcon={<KeyboardDoubleArrowLeftIcon style={{ color: "#ECDCB1", paddingRight: "5px" }} />}
+          endIcon={<KeyboardDoubleArrowRightIcon style={{ color: "#ECDCB1", paddingLeft: "5px" }} />}
+          >
+            <Typography variant='h5' style={{ color: "#ECDCB1", paddingTop: "1px", textWrap: "wrap" }}>CUSTOM GPT COLLECTION</Typography>
+        </Button>
+
+        <div ref={targetSectionRef} style={{ paddingTop: "5vh" }}>
 
         <AccordionElement title="PROGRAMMING">
           <CardElement title="Taldarion" description="Combining the Best of All Top Coding GPTs, into One Supreme Master of All Programming" url="https://chat.openai.com/g/g-n6AiNh8ZM-taldarion" />
