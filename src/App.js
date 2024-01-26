@@ -141,7 +141,7 @@ const AccordionElement = ({title, children}) => {
 
 const CardElement = ({title, description, url}) => {
   return (
-    <Card className={"card-style"} style={{ background: "#14192A", display: "flex", flexDirection: "column", flexWrap: "no-wrap", justifyContent: "space-between" }}>
+    <Card className="card-style" style={{ background: "#14192A", display: "flex", flexDirection: "column", flexWrap: "no-wrap", justifyContent: "space-between" }}>
     <CardContent>
       <Typography variant="h6" sx={{ fontSize: 14, color: "#ECDCB1", fontFamily: "tektur" }} color="text.primary" gutterBottom>
         {title}

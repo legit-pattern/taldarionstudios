@@ -73,7 +73,7 @@
   /* Styles for medium screens */
 
   .card-style {
-    width: 28vh;
+    width: 20vh;
     background-color: #AAAFBF;
     margin: 10px;
   }
@@ -143,7 +143,7 @@
   }
 
   .card-style {
-    width: 30vh;
+    width: 26vh;
     background-color: #AAAFBF;
     margin: 10px;
   }
