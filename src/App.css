@@ -14,6 +14,12 @@
     justify-content: center;
   }
 
+  .card-style {
+    width: 90%;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
+
   .button-bot-link {
     margin: 3px;
   }
@@ -66,6 +72,12 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
 
+  .card-style {
+    width: 28vh;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
+
   .box-padding {
     padding-bottom: 100px;
   }
@@ -113,6 +125,28 @@
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
+
+  .customGptButton {
+    height: 3vh,
+  }
+
+  .customGptText {
+    font-size: 2rem;
+    color: #ECDCB1;
+    padding-top: 1px;
+    text-wrap: nowrap;
+    font-family: tektur;
+  }
+
+  .MuiTypography-root {
+    font-size: 1vh,
+  }
+
+  .card-style {
+    width: 30vh;
+    background-color: #AAAFBF;
+    margin: 10px;
+  }
 
   .box-padding {
     padding-bottom: 150px;
