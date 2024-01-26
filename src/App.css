@@ -10,6 +10,10 @@
 @media screen and (max-width: 600px) {
   /* Styles for small screens */
 
+  .custom-gpt-text {
+    font-size: 1.1rem,
+  }
+
   .MuiAccordionDetails-root {
     justify-content: center;
   }
@@ -57,12 +61,9 @@
     background: #ECDCB1;
   }
 
-  .MuiTypography-root {
-    font-size: 0.5rem;
-  }
-
   .img-banner {
     width: 100%;
+    padding-bottom: 5vh;
   }
 
   .img-footer {
@@ -74,6 +75,10 @@
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles for medium screens */
+
+  .custom-gpt-text {
+    font-size: 2rem,
+  }
 
   .card-style {
     width: 28vh;
@@ -116,10 +121,6 @@
     background: #ECDCB1;
   }
 
-  .MuiTypography-root {
-    font-size: 1rem;
-  }
-
   .img-banner {
     width: 100%;
   }
@@ -132,6 +133,10 @@
 
 @media screen and (min-width: 1025px) {
   /* Styles for large screens (e.g., desktops) */
+
+  .custom-gpt-text {
+    font-size: 2rem,
+  }
 
   .card-style {
     width: 30vh;
@@ -161,10 +166,6 @@
     width: 270px;
     color: black;
     background: #ECDCB1;
-  }
-
-  .MuiTypography-root {
-    font-size: 5rem;
   }
 
   .typography-title {

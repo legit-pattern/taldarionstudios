@@ -35,7 +35,7 @@ function App() {
           startIcon={<KeyboardDoubleArrowLeftIcon style={{ color: "#ECDCB1", paddingRight: "5px" }} />}
           endIcon={<KeyboardDoubleArrowRightIcon style={{ color: "#ECDCB1", paddingLeft: "5px" }} />}
           >
-            <Typography variant='h5' style={{ color: "#ECDCB1", paddingTop: "1px", textWrap: "wrap" }}>CUSTOM GPT COLLECTION</Typography>
+            <Typography className="custom-gpt-text" style={{ color: "#ECDCB1", paddingTop: "1px", textWrap: "wrap" }}>CUSTOM GPT COLLECTION</Typography>
         </Button>
 
         <div ref={targetSectionRef} style={{ paddingTop: "5vh" }}>
